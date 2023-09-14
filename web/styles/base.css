@@ -1,0 +1,28 @@
+body{
+  background-color: #121214;
+  color: #fff;
+
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 100vh;
+
+  /* FAZ O CONTEUDO FICAR NO CENTRO DA TELA */
+  display: flex;
+  flex-direction: column;  /*DEIXA UMITEM EMCIMA DO OUTRO*/
+  align-items: center;
+  justify-content: center;
+  /* FAZ O CONTEUDO FICAR NO CENTRO DA TELA */
+
+
+}
+
+body,
+button,
+input {
+  font-family: 'Roboto', sans-serif;
+}
+
